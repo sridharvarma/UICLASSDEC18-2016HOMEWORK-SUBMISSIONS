@@ -1,0 +1,27 @@
+1. What are data types in javascript?
+A. There are two different data types PRIMITIVE and NON-PRIMITIVE data types.
+Primitive data types:
+ 1. String: JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. The first element is at index 0, the next at index 1, and so on. The length of a String is the number of elements in it.
+
+ 2. Number: JavaScript has only one type of number. Numbers can be written with, or without, decimals.
+
+ 3. Boolean: Boolean represents a logical entity and can have two values: true, and false.
+
+ 4. Null: The Null type has exactly one value: null
+
+ 5. Undefined: A variable that has not been assigned a value has the value undefined.
+ Non-Primitive data types:
+ 1. Objects: Represents instants through which we can accsess numbers.
+
+ 2. Arrays: JavaScript arrays are used to store multiple values in a single variable i.e, list of items.
+
+ 3. regexp: Represents regular expressions.
+
+2. What is the difference between java and javascript?
+A. Java is an OOP programming language while Java Script is an OOP scripting language. Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only. Java code needs to be compiled while JavaScript code are all in text. JavaScript does not create applets or stand-alone applications. In its most common form, JavaScript resides inside HTML documents, and can provide levels of interactivity to web pages that are not achievable with simple HTML. All JavaScript variables must be identified with unique names. These unique names are called identifiers.
+ 
+3. Why do we use javascript in web pages?
+A. JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it's up to the browser to do something with it. The fact that the script is in the HTML page means that your scripts can be seen and copied by whoever views your page.
+
+4,5. How to include javascript in webpages?
+A. We must include javascript in the html document itself. To do this we have to first start writing html document in the notepad. Then we add a <script> tag to the HTML's head, and let the text editor know that you'd like to use a javascript language to write your HTML's javascript  program. We include <script> tag in the html head. 

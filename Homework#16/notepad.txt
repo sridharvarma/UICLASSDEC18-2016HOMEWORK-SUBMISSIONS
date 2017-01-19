@@ -1,0 +1,44 @@
+What are different ways to create objects in javascript?
+A. There are different ways to create new objects:-
+          1. Define and create a single object, using an object literal.
+          2. Define and create a single object, with the keyword new i.e, booleans, numbers, and strings can be converted into objects using the keyword  'new'.
+          3. Define an object constructor, and then create objects of the constructed type
+
+    1. Using object literal:- This is the easiest way to create an object. To create an object we use {}.
+                          example: <script>
+                                     var person = {firstName:"John", age:50, eyeColor:"blue"};
+                                     console.log person.firstName + " is " + person.age + " years old."; //John is 50 years old.
+                                     </script>
+
+    2. Using new: This is same as object literal but we use the key word new.
+                          example: <script>
+                                      var person = new Object();
+                                      person.firstName = "John";
+                                      person.lastName = "Doe";
+                                      person.age = 50;
+                                      person.eyeColor = "blue";
+                                      console.log person.firstName + " is " + person.age + " years old.";//John is 50 years old.
+                                      </script
+
+    3. Using object constructor: This is used to create a single object.
+
+
+3. What are properties in object?
+A. Properties are the values associated with a JavaScript object. A JavaScript object is a collection of unordered properties. Properties can usually be changed, added, and deleted, but some are read only. Suppose in the above example assume that person is an object and we have added few properties like firstName and lastName. We can add and delete properties. To delete properties we must use the delete keyword. In the above example, if we write delete person.age then the person age is deleted. The delete keyword deletes both the value of the property and the property itself. After deletion, the property cannot be used before it is added back again. The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+
+4. How to retrieve a property value in object?
+A. We can retrieve a propert value in object by using object.Values().
+
+
+5,6. How to add or delete property values in object?
+A. We can add new properties to an existing object by simply giving it a value. As said before, in the above example, we have added a new property named firstName to the object person. The delete keyword deletes both the value of the property and the property itself. After deletion, the property cannot be used before it is added back again. The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+
+7. How to update property value in an object?
+A. This is same as adding a new property. person.firstName= "johny". The firstName Jhon is now updated to Johny.
+
+8. How to check if a property exists with in an object?
+A. We can use the 'in' operator to determine the existence of the property. The in operator returns true when the named property exists on the object.
+                            example: if ("name" in person){
+                                     //property exists
+                                      }
+        For determing the own properties we can use hasOwnProperty(). But 'in' operator is used to detect any kind of property.

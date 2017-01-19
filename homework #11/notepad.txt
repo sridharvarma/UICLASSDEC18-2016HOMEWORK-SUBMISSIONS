@@ -1,0 +1,34 @@
+1. Display property values?
+A. The display property specifies how an element should be displayed. The default display value for few of the html elements are inline or block. The inline value helps the element to be displayed in one line whereas a block element displays the content of the element line by line. There are few more values of display property such as,
+flex: Used to display an element as an block-level flex container.
+inline-block: Used to display an element as an inline-level block container.
+inline-flex: Used to display an element as an inline-level flex container.
+inline table: Used to display as an inline-level table.
+table: Lets the element to behave like a <table> element.
+none: The element will not be displayed at all.
+initial: Sets this property to its default value.
+inherit: Inherits this property from its parent element.
+
+2. What is the difference between display none and visibility hidden?
+A. display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. The <script> element uses display: none; as default value.
+
+   visibility:hidden; also hides an element but the element will still take up the same space as before. The element will be hidden, but still affect the layout.
+
+
+3. CSS box-model?
+A. The CSS box model is essentially a box that wraps around every HTML element. It consists of margins, borders, padding, and the actual content. 
+   Content - The content of the box, where text and images appear
+   Padding - Clears an area around the content. The padding is transparent
+   Border - A border that goes around the padding and content
+   Margin - Clears an area outside the border. The margin is transparent
+
+4. Box-sizing in css?
+A. The total width of an element should be calculated like this: Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+The total height of an element should be calculated like this: Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+
+5. What is SASS?
+A. SASS--> syntactically awesome style sheets. Sass is completely compatible with all versions of CSS. It is the best extended language of css.
+
+6. What is pre-processor? Why do you need to use preprocessor?
+A. A preprocessor is a program that takes one type of data and converts it to another type of data. In the case of HTML and CSS, some of the more popular preprocessor languages include Haml and Sass. Haml is processed into HTML and Sass is processed into CSS.
