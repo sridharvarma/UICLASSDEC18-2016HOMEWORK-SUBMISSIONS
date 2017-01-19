@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/BDF31DA8-1381-8C45-8D29-15D9F245FE9E/main.js" charset="UTF-8"></script><script>
+function myFunction() {
+    var hour = new Date().getHours(); 
+    var greeting;
+    if (hour < 18) {
+        greeting = "Good day";
+    } else {
+        greeting = "Good evening";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
+</body>
+</html>

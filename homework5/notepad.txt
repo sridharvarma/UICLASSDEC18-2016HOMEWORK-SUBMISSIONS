@@ -1,0 +1,57 @@
+1. Explain all the input types with examples?
+A. Input element is used to create interactive controls for webforms to accept data from users. There are different input types explained below:-
+  1. Button: It just defines a button. A push button with no default behaviour.
+             Syntax: <input type="button"> 
+
+  2. Checkbox: Checkboxes let a user select ZERO or MORE options of a limited number of choices. user can toggle on or off.
+              Syntax: <input type="checkbox" I have used checkbox in Netflix.html code to define gender.
+
+  3. Color: It allows the user to select a color and returns the hex value for that color. Depending on browser support, a color picker can show up in the input field.  Syntax: <input type="color">
+
+  4. Date: is used for the fields that should contain a date. Depending on browser support, a date picker can show up in the input field.                      Syntax:   <input type="Date">
+
+  5. Email: used to enter an email address during registration processes. I have used the <input type="email"> in netflix.html code to enter the email address.
+
+  6. file: <input type="file"> lets user to slect a file.
+
+  7. Image: <input type="image"> is graphical submit button in which src attribute is used to specify the source of the image and alt attribute to define a alternate text. I have used this in shows.html page for 'Narcos'. <input type="image" src="narcos.jpg" alt="narcos" style="width: 330px;height: 500px;">
+
+  8. Submit: <input type="submit"> defines a button for submitting form data to a form-handler. The form-handler is typically a server page with a script for processing input data. The form-handler is specified in the form's action attribute. <input type="submit" value="enter"> used this in my code to submit the registration details.
+
+  9. Password: <input type="password"> allows user to create his own password in which the entered value is not visible. <input type="password" name="pwd"> i have used this in netflix.html code to help user to secure his account.
+
+  10. Radio: <input type="radio"> defines a radio button which let a user select ONLY ONE of a limited number of choice. 
+
+  11. Range: <input type="range"> reresents a numerical value within a given range.
+
+
+3. What are semantic elemants?
+A. A semantic element clearly describes its meaning to both the browser and developer. The use of Semantic tags help assistive technologies read and interpret your webpage and help computers make sense of your content.
+
+4. Difference between <article>, <section> and <div>?
+A. <div> is non-semantic element where as <article> and <section> are semantic elements. The <section> tag defines sections in a document such as chapters, headers, footers etc. whereas an <article> tag specifies independent, self contained data. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
+
+5. <article> --> Defines an article
+<aside> -->	Defines content aside from the page content
+<details>-->Defines additional details that the user can view or hide
+<figcaption>-->	Defines a caption for a <figure> element
+<figure>-->	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>-->	Defines a footer for a document or section
+<header>-->	Specifies a header for a document or section
+<main>	-->Specifies the main content of a document
+<mark>-->	Defines marked/highlighted text
+<nav>	-->Defines navigation links
+<section>-->	Defines a section in a document
+<summary>-->	Defines a visible heading for a <details> element
+<time>	-->Defines a date/time
+I have used all the above tags in my code.
+
+6.What are form & what is form validation in html?
+A. HTML Forms are one of the main points of interaction between a user and a web site or application. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own. An HTML Form is made of one or more widgets. Those widgets can be text fields, select boxes, buttons, checkboxes, or radio buttons. Most of the time those widgets are paired with a label that describes their purpose. Form validation is nothing but checking if the given input values match the input type.
+
+7. Difference between html4 and html5?
+A. 1. HTML5 Is a Work in Progress: html5 is not standarized as   html4. html5 is still being updated. 
+   2. Simplified Syntax: The simpler doctype declaration is just one of the many strength in HTML5. We can just write <!doctype html> and this is it. The syntax of HTML5 is compatible with HTML4.
+   3. The <header> and <footer> Elements: With HTML5, <header> and <footer> are specifically marked for such. Because of this, it is unnecessary to identify these two elements with a <div> tag.
+   4. New <section> and <article> Elements: HTML5 has adopted the popular web standard. <section> and <article> allows us to mark specific areas of our layouts.
+   5. Html5 also contain new forms compared to html4 like <form>,<forminput>

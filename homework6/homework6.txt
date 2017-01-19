@@ -1,0 +1,23 @@
+1. Different types of css?
+A. There are 3 different types of style sheets.
+   1. Inline style sheets which are written directly using html style attribute in the tag itself. These affect the tags they are applied to. These
+      can be used for an individual change that we do not use repeatedly. This can be inserted anywhere in the middle of html code.
+   2. Internal style sheets may be used if one single page has a unique style. Internal styles are defined within the <style> element, inside the <head> section of an HTML page. These are also known as embedded style sheets.
+   3. External style sheet is a separate file where you can declare all the styles that you want to use on your website. You then link to the external style sheet from all your HTML pages.
+      This means you only need to set the styles for each element once. If you want to update the style of your website, you only need to do it in one place.
+
+2. What is cascading in css?
+A. Cascading means giving a presentation for the document which is written in any markup language such html,xml etc.
+   Even the simplest HTML document may have three or more style sheets:
+        1.The browser's style sheet
+  	2. The user's style sheet
+	3.The author's style sheet
+
+3. Why do we need to use css?
+A. Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for text readers.
+
+4. Which type of css is better practice?
+A. External style sheets is a better practice as they are much easy to make modifications and also easy to implement compared to other style sheets.
+
+5. What are selectors & why do we nedd them in css?
+A. In CSS, selectors are patterns used to select the elements that we want to style. These are used whenever we want to style a particular element in the html code rather than styling the whole thing.
