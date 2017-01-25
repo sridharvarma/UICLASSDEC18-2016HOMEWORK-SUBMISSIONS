@@ -1,0 +1,25 @@
+1. What is call,apply and bind in javascript?
+A. The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+                        Syntax: fun.bind(thisArg[, arg1[, arg2[, ...]]]) 
+
+    The apply() method calls a function with a given this value and arguments provided as an array (or an array-like object).
+                         Syntax: fun.apply(thisArg, [argsArray])
+
+    The call() method calls a function with a given this value and arguments provided individually.
+                          Syntax: fun.call(thisArg[, arg1[, arg2[, ...]]])
+
+
+2. What is context in javascript?
+A. Context is related to objects. It refers to the object within which a function is executed. When you use the JavaScript keyword “this”, that word refers to the object that the function is executing in.
+
+3. What is lexical scope?
+A. In JavaScript,scope is the set of variables,objects and functions you have access to. If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+
+4. what is for in loop?
+A. The for/in statement loops through the properties of an object. The block of code inside the loop will be executed once for each property. 
+
+5. Difference between prototype and extends?
+A. Every JavaScript object has a prototype. The prototype is also an object. All JavaScript objects inherit their properties and methods from their prototype. All JavaScript objects inherit the properties and methods from their prototype. Objects created using an object literal, or with new Object(), inherit from a prototype called Object.prototype.
+                                 The extends keyword is used in class declarations or class expressions to create a class which is a child of another class.
+
+
