@@ -1,0 +1,20 @@
+4. What is jquery?
+A. jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.jQuery is the most popular JavaScript library in use today. The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications.
+
+5.Can jQuery do some work which javascript cant?
+A. Javascript can do every work that jQuery does. jQuery can solve few programming issues which javascript cant because of its frame work.
+
+6. $ in jQuery?
+A. The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the elements. A $ sign to define/access jQuery. A (selector) to "query (or find)" HTML elements. A jQuery action() to be performed on the elements.
+                        Example: $(document).ready(function(){
+
+                                 // jQuery methods go here...
+
+                                 });
+
+7.jQuery 1.x vs 2.x vs 3.x?
+A. generally versioning depends on number of factors like the api compatabilities or the browser compatabilities coming to jquery the concept of versioning gets a little more nuanced with jquery where browser compatibility can be just as important as API compatibility. In order to create a slimmer jQuery, the team started shipping two versions in 2013. The first version remained numbered in the 1.x line and, currently at 1.11.1, maintains compatibility with a maximal number of browsers. The second version, starting with 2.0.0 and now at 2.1.1, dropped support for browsers like IE8 or lower in order to streamline the code. Both the 1.x and 2.x versions of jQuery have the same public APIs, even though they differ somewhat in their internal implementations.and the next one is the successor to what is now version 1.11.1 will be jquery compat 3.0 and the successor to jquery 2.1.1 will be jquery 3.0 there are two different packages on npm and bower but they share the same version to indicate they have the same api behaviour.
+
+
+
+
